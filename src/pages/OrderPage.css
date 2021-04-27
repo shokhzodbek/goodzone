@@ -1,0 +1,72 @@
+.order-page {
+	max-width: 15rem;
+	width: fit-content;
+	min-height: 6rem;
+	background-color: #f5363e;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding: 0.5rem 0.6rem;
+	cursor: pointer;
+	position: fixed;
+	bottom: 1.6rem;
+	right: -5px;
+	z-index: 99;
+}
+.order-page .order-number {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	justify-content: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1rem;
+}
+.order-page .order-number span {
+	margin-left: 8px;
+	font-size: 0.8rem;
+}
+
+.order-page .order-price {
+	background-color: #fff;
+	margin-top: 0.5rem;
+	padding: 0.5rem 0.5rem;
+	min-width: 5.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	width: fit-content;
+	height: 100%;
+}
+
+.order-page .order-price span {
+	font-size: 0.8rem;
+	color: #f5363e;
+	font-weight: 700;
+}
+
+@media (max-width: 578px) {
+	.order-page {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 80%;
+		margin-right: 3rem;
+		border-radius: 30px;
+		min-height: 3rem;
+		padding: 0 0.1rem;
+		max-width: none;
+	}
+	.order-page .order-price {
+		margin: 0;
+		border-radius: 30px;
+		height: 100%;
+		padding: 0.8rem 0.5rem;
+	}
+	.order-page .order-number {
+		margin-left: 1rem;
+	}
+}

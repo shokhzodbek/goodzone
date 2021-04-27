@@ -1,0 +1,44 @@
+.orderItem {
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+	justify-content: space-between;
+	border-bottom: 1px solid #f1f3f4;
+}
+
+.orderItem .number-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: lightgray;
+	padding: 0.1rem;
+	color: #fff;
+	border-radius: 1rem;
+}
+.orderItem .number-items span {
+	color: #000;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+.orderItem .price-item h5 {
+	font-size: 1rem;
+	font-weight: 400;
+	color: #333;
+}
+.orderItem .price-item span {
+	color: #f5363e;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+.orderItem > span {
+	color: #000;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+.orderItem > img {
+	width: 5rem;
+}
+.orderItem > .MuiSvgIcon-root {
+	color: lightgray;
+	font-size: 1.2rem;
+}

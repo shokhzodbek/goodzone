@@ -1,0 +1,9 @@
+.bannerOn {
+	margin: 60px;
+}
+
+@media (max-width: 800px) {
+	.bannerOn {
+		margin: 60px 1rem;
+	}
+}

@@ -1,0 +1,61 @@
+.card-custom {
+	display: flex;
+	flex-direction: column;
+	height: 26rem;
+	width: 86%;
+	padding: 1rem;
+	background-color: #fff;
+	box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+	margin-bottom: 2rem;
+	border-radius: 0.3rem;
+}
+.card-custom img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.card-custom .card-body {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 0;
+	margin-top: 1rem;
+}
+.card-custom .card-body .card-title h4 {
+	font-size: 1rem;
+	font-weight: 500;
+}
+.card-custom .card-body .card-title span {
+	color: #f5363e;
+	font-weight: 500;
+}
+
+.card-custom .card-body .card-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+}
+.card-custom .card-body .card-button button {
+	outline: none;
+	border: 1px solid rgb(245, 237, 237);
+	border-radius: 26px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 7rem;
+	padding: 0.45rem 1rem;
+	color: #f5363e;
+	font-size: 0.6rem;
+	transition: 0.3s linear;
+}
+.card-custom .card-body .card-button button:hover {
+	background-color: #f5363e;
+	color: #fff;
+}
+.card-custom .card-body .card-button button span {
+	font-weight: 500;
+	margin-left: 5px;
+}

@@ -1,0 +1,28 @@
+.about-exist {
+	display: flex;
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 5px;
+}
+
+.about-exist table {
+	width: 100%;
+	flex: 1;
+	font-size: 1rem;
+}
+
+.about-exist table td,
+th {
+	width: 50rem;
+}
+
+@media (max-width: 780px) {
+	.about-exist table {
+		overflow-x: scroll;
+	}
+	.about-exist table td,
+	th {
+		font-size: 0.6rem;
+		width: 20rem;
+	}
+}

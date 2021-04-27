@@ -1,0 +1,69 @@
+.show-order {
+	height: 100%;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	cursor: pointer;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	max-width: 30rem;
+	width: 100%;
+	z-index: 1000;
+	padding: 0 1.2rem;
+	transition: all 0.3s linear;
+	transform: translate(100%);
+}
+
+.show-order .show-header {
+	background-color: #fff;
+	height: 3rem;
+	border-bottom: 0.07rem solid #f7f7f7;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.show-order .show-header .shov-header-basket {
+	display: flex;
+	align-items: center;
+	color: #f5363e;
+	font-weight: 700;
+	font-size: 1.2rem;
+}
+.show-order .show-header .shov-header-basket span {
+	font-size: 1rem;
+	margin-left: 5px;
+}
+
+.show-order .show-header > span {
+	color: lightgray;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.show-show {
+	transform: translate(0);
+}
+
+.order-button {
+	background-color: #f5363e;
+	border: none;
+	outline: none;
+	position: fixed;
+	bottom: 1rem;
+
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #fff;
+	left: 1rem;
+	border-radius: 30px;
+	text-align: center;
+}
+.empty-bucket {
+	display: grid;
+	place-items: center;
+	color: gray;
+	font-size: 1.2rem;
+}

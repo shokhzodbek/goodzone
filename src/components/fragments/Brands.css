@@ -1,0 +1,14 @@
+.brands {
+	margin: 3rem;
+	display: block;
+}
+.brands h2 {
+	font-size: 1.6rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+@media (max-width: 800px) {
+	.brands {
+		display: none;
+	}
+}

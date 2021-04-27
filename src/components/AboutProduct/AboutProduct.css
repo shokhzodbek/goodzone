@@ -1,0 +1,38 @@
+.about-products {
+	display: flex;
+	flex-direction: column;
+	margin: 4rem 0;
+}
+.about-products .about-button {
+	display: flex;
+	flex-direction: row;
+	width: 38rem;
+	align-items: center;
+	border-radius: 5px;
+	background-color: #fff;
+}
+.about-products .about-button span {
+	padding: 1.4rem 1.2rem;
+
+	font-size: 1.15rem;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+.about-products .about-button span:nth-child(2) {
+	border-left: 2px solid #f7f7f7;
+	border-right: 2px solid #f7f7f7;
+}
+
+.active {
+	color: #f5363e;
+}
+
+@media (max-width: 610px) {
+	.about-products .about-button {
+		flex-direction: column;
+		width: 100%;
+	}
+}

@@ -1,0 +1,32 @@
+.about-rate {
+	display: flex;
+	flex-direction: column;
+}
+.about-rate .about-star {
+	color: gray;
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
+	cursor: pointer;
+}
+
+.about-rate input {
+	width: 11rem;
+	padding: 1px;
+}
+.about-rate textarea {
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	margin-top: 1rem;
+	outline: none;
+}
+.about-rate textarea:focus {
+	border: 1px solid red;
+}
+.about-rate-button {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 1rem 0;
+}
